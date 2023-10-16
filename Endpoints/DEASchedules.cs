@@ -19,6 +19,11 @@ public sealed class DEASchedules : EndpointBaseAsync.WithoutRequest.WithActionRe
         _iMasterService = iMasterService;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
 
     [HttpGet(Routes.DEASchedules)]
     [ProducesResponseType(StatusCodes.Status200OK)]
